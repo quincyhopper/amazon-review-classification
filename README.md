@@ -9,7 +9,7 @@ This project implements a moduler feed forward network (FNN) from scratch using 
 # Installation
 1. Clone the repository
 ```
-git clone https:
+git clone https://github.com/quincyhopper/amazon-review-classification
 ```
 2. Install dependencies 
 ```
