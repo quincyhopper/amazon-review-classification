@@ -85,6 +85,7 @@ The `Adam` class in `optim.py` allows the model to update its weights and biases
 
 ## Term-frequency inverse document frequency (TF-IDF)
 The `TFIDF` class in `encoder.py` allows you to optionally apply TF-IDF weighting to both BoW and GloVe vectors. This scheme heavily weights words that appear frequently within one review, but rarely across the entire dataset. This is achieved by scaling the frequency of token $i$ in review $j$ ($\text{tf}_{i,j}$) by the inverse document frequency:
+
 $$
 \text{idf}_i =\log \biggl( \frac{N}{\text{df}_i} \biggr)
 $$
