@@ -18,7 +18,7 @@ def get_datasets(config:dict):
         config: Dictionary that at least contains a nested dictionary called 'data'. Contains splitting and cleaning parameters. 
 
     Returns:
-        Dictionary containing all datasplits and the unique labels.
+        Dictionary containing all datasplits and the unique labels; the vectoriser object and the cleaner object. 
     """
 
     # Load data
